@@ -1,0 +1,97 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+html {
+    min-height: 100%;
+}
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: rgb(34, 33, 33);
+}
+
+.container_features {
+    position: relative;
+    margin : 30px 30px;
+}
+.title{
+    text-align:center;
+    align-items: center;
+    position: relative;
+    color: rgb(49, 48, 48);
+    margin: 50px 0;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.underline {
+     height: 3px; 
+     background: #7a7b7e; 
+    width:500px; 
+    margin:50px auto;
+}    
+
+div {
+    display: block;
+}
+.row {
+display: flex;
+flex: row;
+justify-content: space-between;
+}
+.text-center {
+    text-align: center;
+    max-width: 350px;
+}
+.main .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main .cont .language {
+    width: 200px;
+    height: 240px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px 4%;
+    border: 1px solid rgb(165, 164, 164);
+    text-align: center;
+    
+}
+.lang_cont  {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 4%;
+
+}
+
+.name{
+    text-align: center;
+    display: none
+}
+
+
+.main .cont .language img {
+    width: 195px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 10px;
+}
+
+.main .cont .language:hover {
+    cursor: pointer;
+    border: 2px solid rgb(43, 42, 42);
+   
+}
+.language:hover + .name {
+    display: block;
+}
+
+footer{
+    left: 0;
+  bottom: 0;
+   height: 55px;
+}

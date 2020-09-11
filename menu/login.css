@@ -1,0 +1,145 @@
+:root {
+    --form_bg: #b3b3c5;
+    --input_bg: rgb(255, 255, 255);
+    --input_hover: #ffffff;
+    --submit_bg: rgb(10, 10, 190);
+    --submit_hover: #fc611f;
+    --icon_color: #081816;
+}
+
+* html body {
+    padding: 0;
+    margin: 0;
+}
+
+ #icon{
+     margin-left: 10px;
+ }
+
+#form_wrapper {
+    width: 800px;
+    height: 450px;
+    margin: 50px auto;
+    border-radius: 50px;
+    display: grid;
+    /* separate the login box in two colomns equals*/
+    grid-template-columns: 1fr 1fr;
+    /* with a small gap in between them*/
+    grid-gap: 5vw;
+    /* add some padding around */
+    padding: 5vh 15px;
+    grid-gap: 5vw;
+    padding: 5vh 15px;
+    background: url(../img/signupBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form_left {
+    /* center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_left img {
+    width: 350px;
+    height: 350px;
+}
+
+#form_right {
+    display: grid;
+    /* single column layout */
+    /* have some gap in between elements*/
+    /* grid-gap: 20px; */
+    padding: 1% 5%;
+}
+
+.input_container {
+    background-color: var(--input_bg);
+    /* vertically align icon and text inside the div*/
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+
+
+.input_container,
+#input_submit {
+    /* make the (email password login )box radius */
+    height: 50px;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.input_field {
+    /* customize the email /password tag with lighter font and some padding*/
+    color: var(--icon_color);
+    background-color: inherit;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-left: 10px;
+    width: 80%;
+
+}
+
+
+.input_field:hover,
+.input_field:focus {
+    /* login background */
+    outline: none;
+}
+
+#input_submit {
+    /* submit button has a different color and different padding */
+    background-color: var(--submit_bg);
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+
+justify-self: center;
+}
+
+#input_submit:hover {
+    background-color: var(--submit_hover);
+    /* simple color transition on hover */
+    transition: background-color,
+        .5s;
+    cursor: pointer;
+}
+
+h1,
+span {
+    text-align: center;
+}
+
+/* shift it a bit lower */
+#create_account {
+    display: block;
+    position: relative;
+}
+
+a {
+    /* remove default underline */
+    text-decoration: none;
+    color: var(--submit_bg);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--submit_hover);
+}
+footer {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

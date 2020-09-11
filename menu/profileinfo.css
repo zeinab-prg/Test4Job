@@ -1,0 +1,202 @@
+* body
+html {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', 'Open Sans', sans-serif;   
+     background: linear-gradient(to right, #9bb4c7 0%, #283269 100%);
+  }
+ 
+  #edit-profie{
+      text-decoration: none;
+      color: white;
+  }
+  .fa-camera :hover{
+     color : red;
+  }
+.profile-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;  
+}
+.profile-menu{
+    padding: 20px 5px 0 0 ; 
+    width: 49%;
+    border-radius: 15px;
+    height: 80%;
+}
+.image-container{
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;    
+}
+.image-container img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+    color: #7c7878;
+}
+.li{
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.description{
+    border-bottom: 1px solid #c7c5c5;
+    font-size: 12px;
+    padding: 0 10px 0px 7px;
+    color: rgb(8, 12, 15);
+    padding-bottom: 10px;
+}
+#description{
+    font-weight: bold;
+    padding-left: 10px;
+    color: rgb(46, 46, 46);
+    line-height: 40px;
+}
+
+.email{
+    margin: 5px;
+    font-size: 11px;
+    color: rgb(110, 108, 108);
+}
+.name{
+    color:#e94311;
+    margin: 5px;
+}
+.username{
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 25px;
+    border-color: rgb(40, 40, 138);
+    color: rgb(12, 12, 107);
+
+}
+#active {
+    font-size: 17px;
+    line-height: 50px;
+    border-bottom: 1px solid #c7c5c5;
+    border-left: 5px solid rgb(50, 50, 95);
+    color: rgb(30, 30, 31);
+
+}
+a {
+    text-decoration: none;
+    color:#7c7878;
+}
+.personal{
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+#noactive {
+    font-size: 16px;
+    line-height: 50px;
+}
+
+#noactive:hover { 
+background-color: rgb(50, 50, 95);
+color: darkgray;
+font-weight: bold;
+
+}
+#cam_icon {
+    cursor: pointer;
+}
+
+.profile-content{
+    padding-top: 33px;
+    padding-left: 22px;
+    width: 49%;
+    border-radius: 15px;
+}
+.activity{
+    font-size: 14px;
+    color: rgb(39, 39, 41);
+    margin-left: 15px;
+}
+.pic{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 14px;
+    margin: 20px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.adress{
+    margin-left: 20px;
+}
+#adress{
+    width: 94%;
+}
+#city{
+    width: 310px;
+}
+#state{
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#cv{
+align-self: center;
+}
+#description-input{
+    width: 94%;
+    height: 100px;
+}
+#button {
+    background-color: #2a36e0; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px; margin: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .label{
+    font-weight: 400;
+    color: rgb(70, 67, 67);
+  }
+  
+  #card{
+      background: rgb(255, 255, 255);
+      width: 60vw;
+      border-radius: 10px;
+  }
+  input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 ;
+}
+
+  .top{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+  }
+  #buttonid{
+    background-color: unset;
+    border: none;
+  }
+  .btn{
+    background-color: unset;
+border-width: 1px;
+      cursor: pointer;
+  }

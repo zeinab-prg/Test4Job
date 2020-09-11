@@ -1,0 +1,79 @@
+#test {
+    height: 450px;
+    width: 750px;
+    border-radius: 18px;
+    margin: 50px auto;
+    background: url(../img/bgl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.testheader {
+    border-bottom: 2px solid gray;
+    height: 80px;
+    display: flex;
+
+}
+
+.testheader img {
+    width: 50px;
+    height: 55px;
+    margin: 15px 10px;
+}
+
+.testheader h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.testheader p {
+    margin-top: 0px;
+}
+
+.timeDiv {
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    color: #2a2a3d;
+    font-size: 20px;
+}
+
+#next {
+    background: blue;
+    position: absolute;
+    right: 19px;
+    bottom: 0;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.q0,
+.q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6,
+.q7,
+.q8,
+.q9 {
+    padding: 17px 50px;
+    display: none;
+    color: #2a2a3d;
+}
+
+.option {
+    margin: 20px 30px;
+    font-size: 22px;
+}
+
+.scoreDiv {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    color: #2a2a3d;
+    display: none;
+    font-size: 37px;
+}

@@ -1,0 +1,137 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;   
+     background: linear-gradient(to right, #9bb4c7 0%, #283269 100%);
+  }
+  .email{
+    margin: 5px;
+    font-size: 11px;
+    color: rgb(110, 108, 108);
+}
+.name{
+    color:#e94311;
+    margin: 5px;
+    
+}
+
+.separator{
+height: 500px;
+border: 1px solid black ;
+margin: auto 30px;
+}
+.username{
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 25px;
+    border-color: rgb(40, 40, 138);
+    color: rgb(12, 12, 107);
+
+}
+#active{
+    font-size: 16px;
+    line-height: 50px;
+    border-bottom: 1px solid #c7c5c5;
+    font-weight: bold;
+    border-left: 3px solid brown;
+}
+
+.profile-container{
+    height: 95%;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;  
+    background: #eeeded; 
+    border-radius: 25px;
+}
+.profile-menu{
+    width: 420px; 
+   
+}
+.image-container{
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;    
+}
+.image-container img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+    color: #7c7878;
+}
+.li{
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.description{
+    border-bottom: 1px solid #c7c5c5;
+    font-size: 12px;
+    padding: 0 10px 0px 7px;
+    color: rgb(8, 12, 15);
+    padding-bottom: 10px;
+}
+#description{
+    font-weight: bold;
+    padding-left: 10px;
+    color: rgb(46, 46, 46);
+    line-height: 40px;
+}
+
+.form{
+	 width:470px; padding-left:50px; padding-top:30px;
+}
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+.form input[type="text"] { width: 420px; height: 37px;}
+.form textarea {width: 420px;}
+.form input[type="file"] { background-color: transparent; border: none; }
+.form input[type="email"] { width: 400px; }
+
+.form input.age{width:120px;}
+.form label { margin-top: 8px ; color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; margin-right: 20px; }
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form .select-style {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(images/select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  }
+.form .gender {
+  width:410px;
+  }
+
+.form input.buttom{height: 40px; background: #40ce3b; display: inline-block; padding: 5px 20px 6px; margin-top: 12px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+.form input.buttom:hover	{ background-color: #309209; }
+
+.form a {height: 40px; background: #b0b8c5; display: inline-block; padding: 13px 40px 6px; color: #0a0a0a; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+.form a:hover	{ background-color: #737880; }

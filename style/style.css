@@ -1,0 +1,382 @@
+*{
+  font-family: "montserrat",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+  
+}
+
+header {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background: rgb(26, 13, 49);
+}
+#logo {
+  height: 140px;
+}
+
+header ul {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fa-user, .fa-user-tie {
+margin-right: 20px;
+margin-left: 40px;
+color: white
+}
+
+header li {
+    text-decoration: none;
+    border-radius: 15px;
+    width: 120px;
+    justify-items: center;
+}
+
+header a {
+    color: #7399f3;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.active a {
+    color: rgb(255, 255, 255);
+    background: #4770d1;
+}
+
+header li:hover a {
+    color: white;
+    background: #3c61b9;
+}
+
+#login {
+    border-radius: 5px;
+    border: 1px solid rgb(90, 90, 90);
+    padding: 5px;
+    /* height: 19px; */
+    font-weight: bold;
+    background: rgb(235, 137, 71);
+    margin-left: 50px;
+    color: black;
+    padding: 5px 10px;
+}
+
+
+.dropbtn {
+    /* height: 19px; */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+ 
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 110px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 3px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+#signup {
+    font-weight: bold;
+}
+
+#signup:hover {
+    background: #353535;
+    color: white;
+}
+
+
+
+
+/* -------------------- section -------------------- */
+
+section {
+    position: relative;
+    height: 95vh;
+}
+
+#bglanding {
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+}
+
+#landing {
+    margin: 0;
+    position: relative;
+    top: 170px;
+}
+
+#text {
+    margin: 0;
+      /* Create the gradient. */
+    background-image: linear-gradient( to right ,rgb(255, 255, 255) 0%, rgb(30, 24, 56) 25%, rgb(25, 11, 49) 53%, rgb(14, 3, 34) 100% );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-text-fill-color: transparent; 
+
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-left: 70px;
+}
+
+#landing div {
+    display: flex;
+    margin: 35px;
+    position: relative;
+    left: 120px;
+}
+
+    strong {
+        font-weight: 700;
+        }
+
+
+.company {
+    margin: 0 20px;
+    background: #f76235;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 14px 22px;
+    transition: all 0.5s;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.candidate {
+    
+    color: #ffffff;
+    background: #22428b;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all 0.5s;
+    padding: 11px 18px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+    padding: 0;
+}
+
+/* ------------ main ------------ */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f4511e;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .container .lang {
+    width: 200px;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 40px 4%;
+    border: 1px solid rgb(165, 164, 164);
+    text-align: center;
+}
+
+main .container .lang img {
+    width: 195px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 20px;
+}
+main .container .lang:hover {
+    border: 2px solid rgb(78, 78, 78);
+
+}
+footer{
+  left: 0;
+  bottom: 0;
+   height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.separator{
+border: .5px solid wheat;
+}
+
+/* ------------ Footer ------------ */
+
+.site-footer
+{
+  background-color:#0e1124;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 10px;
+}
+.text-justify{
+    max-width: 500px;
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin :5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+  text-decoration: none;
+  line-height:40px;
+
+}
+.site-footer a:hover
+{
+  color:#a5bff5;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+
+.site-footer .social-icons
+{
+  text-align:center;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:30px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#bac5c9
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.GitHub:hover
+{
+  background-color:#639ce6
+}
+
+
+
+footer {
+    bottom: 0;
+    color: #fff;
+    background-color: #0e1124;
+    text-align: center;
+    height: 45px;
+    justify-content: center;
+    display: flex;
+}
